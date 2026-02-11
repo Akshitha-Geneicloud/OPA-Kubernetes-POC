@@ -83,10 +83,14 @@ minikube start
 - OPA Gatekeeper works as a Kubernetes admission controller and requires a running cluster.
 
 Verify
-```kubectl get nodes```
+```
+kubectl get nodes
+```
 
 ## STEP 2: Install OPA Gatekeeper
-```kubectl apply -f https://raw.githubusercontent.com/open-policy-agent/gatekeeper/release-3.14/deploy/gatekeeper.yaml```
+```
+kubectl apply -f https://raw.githubusercontent.com/open-policy-agent/gatekeeper/release-3.14/deploy/gatekeeper.yaml
+```
 
 Verify
 ```
